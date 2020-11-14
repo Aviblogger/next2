@@ -1,0 +1,138 @@
+body
+{
+	background: #212121;min-height: 100vh;
+	display: flex;
+	font-weight: 400;
+	font-family: arial;
+}
+
+.cd
+{
+	
+	margin: 10px;
+}
+
+.white
+{
+	color: #ffff;
+	font-size:40px;
+}
+.pj
+{
+	color: #ffff;
+	font-size:40px;
+	margin: 20px;
+}
+.nt
+{
+	text-align: center;
+}
+
+.custom1{
+
+padding-left: 224px;
+padding-right: 224px;
+padding-top: 40px;
+/*margin-top: -300px;*/
+}
+
+/*
+.img{
+        width: 100px;
+        height: 100px;
+       border-radius: 5%;
+}*/
+
+.cardimg
+{
+    width: 300px;
+    height: 250px;
+
+}
+.mt-20
+{
+    margin-top:20px; 
+}
+.footer
+{
+    background:linear-gradient(#191b1f,#090a0b);
+}
+input[type=date], input[type=datetime-local], input[type=email],
+ input[type=number], input[type=password], input[type=search-md], 
+ input[type=search], input[type=tel], input[type=text], input[type=time],
+  input[type=url], textarea.md-textarea
+{
+    width: 96%;
+}
+
+.im
+{
+	    border-radius: 50% !important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem !important;
+}
+
+
+.btn-success {
+    color: #fff;
+    background-color: #14d851;
+    border-color: #28a745;
+}
+
+ @media(max-width:768px) {
+ 	.im{
+    width: 100%;
+    text-align: center;
+        padding: 10px;
+}
+.mt-4, .my-4 {
+    text-align: center;
+}
+
+
+.cd
+{
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+
+.custom1{
+
+padding-left: 100px;
+padding-right: 100px;
+padding-top: 40px;
+/*margin-top: -300px;*/
+}
+
+}
+
+@media (min-width: 576px)
+{
+.card-deck {
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
+
+
+
+.card-deck .card {
+    /*display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 1 0;
+    flex: 1 0;
+    -webkit-flex-direction: column;
+    flex-direction: column;*/
+    margin: auto;
+   /* margin-right: 15px;*/
+    margin-bottom: 15px;
+    margin-left: 15px;
+    
+	
+}
+}
